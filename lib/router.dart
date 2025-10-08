@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:myapp/models/Note.dart';
+import 'package:myapp/models/note.dart';
 import 'package:myapp/screens/details_screen.dart';
 import 'package:myapp/screens/home_screen.dart';
 

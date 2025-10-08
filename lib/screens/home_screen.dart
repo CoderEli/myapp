@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:myapp/models/Note.dart';
+import 'package:myapp/models/note.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key, this.title});
-  final title;
+  const HomeScreen({super.key,});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -53,6 +52,11 @@ class _HomeScreenState extends State<HomeScreen> {
             subtitle: Text(notes[index].text),
           ),
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        backgroundColor: Colors.deepOrange,
+        child: const Icon(Icons.add),
       ),
     );
   }
